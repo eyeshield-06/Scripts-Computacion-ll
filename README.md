@@ -1,7 +1,6 @@
 # Scripts
 Aqui podran encontrar los distintos scripts desarrollados en las clases que tengamos.
 
-\tableofcontents
 
 1. Sol_list1.R
 
