@@ -4,7 +4,7 @@ Aqui podran encontrar los distintos scripts desarrollados en las clases que teng
 
 1. Sol_list1.R
 
-Solucion listado 1.
+Soluci\'on listado 1.
 
 2. sort.c
 
