@@ -4,7 +4,7 @@ X <- rnorm(n = 50, mean = 5, sd = 2)
 A <- matrix(data = x, nrow = 10, ncol = 5, byrow = TRUE)
 A.df <- as.data.frame(a)
 # 3.
-hist(x, main = "50 realizaciones simuladas de una variable normal",
+hist(X, main = "50 realizaciones simuladas de una variable normal",
             xlab = "x", ylab = "Frecuencia")
 # 4.
 rownames(A) <- paste("Fila ", 1:10)
