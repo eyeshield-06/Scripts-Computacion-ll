@@ -2,7 +2,7 @@
 
 Aqui podran encontrar los distintos scripts desarrollados en las clases que tengamos.
 
-# Table of contents
+## Table of contents
 1. [Ayudantia 1](#introduction)
 2. [Ayudantia 2](#paragraph1)
 3. [Ayudantia 3](#paragraph2)
@@ -28,4 +28,7 @@ La funcion del **ejercicio 9** la traduje de lenguaje C nuevamente. La saque de 
 ## Ayudantia 3 <a name="paragraph2"></a>
 El tema principal de esta ayudantia son **funciones** (recursivas principalmente). Veremos la funcion para encontrar en n-simo primo, multiplicar dos matrices y calculo de determinante.
 
-La del calculo de determinante la pueden encontrar en el script **Ayudantia3part2.R**.
+La del calculo de determinante la pueden encontrar en el script **Ayudantia3part2.R** y corresponde a la implementacion de la definicion que conocemos de algebra.
+
+![Alt text](Hola)
+<img src="det.svg">
