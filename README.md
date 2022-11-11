@@ -30,5 +30,5 @@ El tema principal de esta ayudantia son **funciones** (recursivas principalmente
 
 La del calculo de determinante la pueden encontrar en el script **Ayudantia3part2.R** y corresponde a la implementacion de la definicion que conocemos de algebra.
 
-![Alt text](det.svg)
-<img src="det.svg">
+![Definicion Determinante](det.jpg)
+
