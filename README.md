@@ -32,3 +32,6 @@ La del calculo de determinante la pueden encontrar en el script **Ayudantia3part
 
 ![Definicion Determinante](det.jpg)
 
+Lo mismo ocurres con la multiplicacion de dos matrices, correspondiente al archivo **Producto2matrix.R**.
+
+![Definicion Producto](dot.png)
