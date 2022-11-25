@@ -6,6 +6,7 @@ Aqui podran encontrar los distintos scripts desarrollados en las clases que teng
 1. [Ayudantia 1](#introduction)
 2. [Ayudantia 2](#paragraph1)
 3. [Ayudantia 3](#paragraph2)
+4. [Ayudantia 4](#paragraph3)
 
 ## Ayudantia 1 <a name="introduction"></a>
 1. Sol_list1.R
@@ -35,3 +36,18 @@ La del calculo de determinante la pueden encontrar en el script **Ayudantia3part
 Lo mismo ocurres con la multiplicacion de dos matrices, correspondiente al archivo **Producto2matrix.R**.
 
 ![Definicion Producto](dot.png)
+
+## Ayudantia 4 <a name="paragraph3"></a>
+En este listado se ocupa en varias ocasiones **ggplot** para realizar los distintos graficos pedidos.
+
+Esto ya que como pueden ver en [stackoverflow](https://stackoverflow.com/questions/63867741/creating-stratified-histogram-using-an-r-function), cuando el grafico se complica en ocasiones es mas sencillo usar *ggplot*, que las funciones base del lenguaje.
+
+```R
+ggplot(datos, aes(x = Age)) +
+    geom_histogram(aes(fill = Sex)) +
+    geom_histogram(fill = NA, color = "black")
+```
+
+![Chart](Ggplot.png)
+
+para mas informacion sobre **ggplot**, visitar la pagina [R CHARTS](https://r-charts.com/ggplot2/).
