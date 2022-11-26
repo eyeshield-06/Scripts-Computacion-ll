@@ -1,12 +1,12 @@
 ## 2)
-Det <- function(A){
+Det <- function(A){ # A es una matriz
     if(length(A) == 1){
         return(A)
     }
     else{
         temp <- 0
         for(j in 1:sqrt(length(A))){ # dimension de una matriz cuadrada
-            temp <- temp + (-1)^(1+j)*A[1,j]*det(A[-1, -j])
+            temp <- temp + (-1)^(1+j)*A[1,j]*Det(A[-1, -j])
         }
         return(temp)
     }

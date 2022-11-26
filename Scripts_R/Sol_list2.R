@@ -139,7 +139,7 @@ Primo = function(n){
         }
         i = i + 1
     }
-    return(primos[n])
+    return(primos)
 }
 Primo(15)
 

@@ -47,8 +47,12 @@ gg_lm
 # pregunta 5
 # a)
 datos <- read.csv("datos_titanic.csv")
+
+png("Ggplot.png") # para exportar graph
 ggplot(datos, aes(x = Age)) +
-    geom_histogram(aes(fill = Sex))
+    geom_histogram(aes(fill = Sex)) +
+    geom_histogram(fill = NA, color = "black")
+dev.off()
 
 table(factor(datos$Sex))
 # b)
