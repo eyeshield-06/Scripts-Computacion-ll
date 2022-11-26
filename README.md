@@ -31,11 +31,11 @@ El tema principal de esta ayudantia son **funciones** (recursivas principalmente
 
 La del calculo de determinante la pueden encontrar en el script **Ayudantia3part2.R** y corresponde a la implementacion de la definicion que conocemos de algebra.
 
-![Definicion Determinante](det.jpg)
+![Definicion Determinante](~/Scripts-Computacion-ll/Imgs/det.jpg)
 
 Lo mismo ocurres con la multiplicacion de dos matrices, correspondiente al archivo **Producto2matrix.R**.
 
-![Definicion Producto](dot.png)
+![Definicion Producto](~/Scripts-Computacion-ll/Imgs/dot.png)
 
 ## Ayudantia 4 <a name="paragraph3"></a>
 En este listado se ocupa en varias ocasiones **ggplot** para realizar los distintos graficos pedidos.
@@ -48,6 +48,6 @@ ggplot(datos, aes(x = Age)) +
     geom_histogram(fill = NA, color = "black")
 ```
 
-![Chart](Ggplot.png)
+![Chart](Imgs/Ggplot.png)
 
 para mas informacion sobre **ggplot**, visitar la pagina [R CHARTS](https://r-charts.com/ggplot2/).
