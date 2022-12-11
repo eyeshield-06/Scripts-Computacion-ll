@@ -55,6 +55,8 @@ para mas informacion sobre **ggplot**, visitar la pagina [R CHARTS](https://r-ch
 
 ## Ayudantia 6? <a name="paragraph4"></a>
 
+** Todo Se encuentra en la carpeta Estimadores **
+
 En esta ayudantia se dio una explicacion de lo que esta expuesto en la 5.5.2 del libro guia del ramo, en el cual se busca ajustar una funcion de densidad a un histograma. Para lo anterior es importante tener algunos conceptos y metodos para encontrar estimadores.
 
 ![hist](Estimadores/example2.png)
