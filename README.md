@@ -7,6 +7,7 @@ Aqui podran encontrar los distintos scripts desarrollados en las clases que teng
 2. [Ayudantia 2](#paragraph1)
 3. [Ayudantia 3](#paragraph2)
 4. [Ayudantia 4](#paragraph3)
+5. [Ayudantia 5](#paragraph4)
 
 ## Ayudantia 1 <a name="introduction"></a>
 1. Sol_list1.R
@@ -51,3 +52,18 @@ ggplot(datos, aes(x = Age)) +
 ![Chart](Imgs/Ggplot.png)
 
 para mas informacion sobre **ggplot**, visitar la pagina [R CHARTS](https://r-charts.com/ggplot2/).
+
+## Ayudantia 6? <a name="paragraph4"></a>
+
+En esta ayudantia se dio una explicacion de lo que esta expuesto en la 5.5.2 del libro guia del ramo, en el cual se busca ajustar una funcion de densidad a un histograma. Para lo anterior es importante tener algunos conceptos y metodos para encontrar estimadores.
+
+![hist](Estimadores/example2.png)
+![histC](Estimadores/mm.png)
+
+### Referencias:
+
+* <https://en.wikipedia.org/wiki/Gamma_distribution>
+* <https://tminka.github.io/papers/minka-gamma.pdf> 
+* <https://www.youtube.com/watch?v=0S7v-gw699c&t=161s>
+* <https://statproofbook.github.io/P/gam-mean.html>
+* <https://statproofbook.github.io/P/gam-var.html>
